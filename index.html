@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Losowanie kolorów - hazard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+
+    <h1>Losowanie kolorów</h1>
+
+    <section class="game">
+      <div class="color"></div>
+      <div class="color"></div>
+      <div class="color"></div>
+    </section>
+
+    <section class="play">
+      <input type="number" placeholder="Podaj stawkę" id="bid">
+      <button id="start">Zakręć!</button>
+    </section>
+
+    <section class="panel">TWOJE SRODKI PRZED KOLEJNĄ GRĄ TO: <span class="wallet"></span></section>
+
+    <section class="instruction">
+      <h1>Instrukcja gry:</h1>
+      <p> <br> 1. Początkowo w twoim portfelu znajduje się 100 $
+        <br> 2. Po naciśnięciu przycisku "ZAKRĘĆ" następuje losowanie kolorów
+        <br> 3. W momencie gdy wszystkie trzy kolory będą takie same, gracz wygrywa postawione pieniądze pomnożone razy
+        3
+        <br> 4. Gdy kolory będą różne, gracz przegrywa tyle pieniędzy ile postawił
+        <br>Życzę miłej gry
+      </p>
+    </section>
+
+    <section class="score">
+      <span class="result"></span> Za tobą <span class="number"></span> gier, w tym <span class="win"></span> wygranych
+      i <span class="loss"></span> przegranych:
+    </section>
+
+  </div>
+  <script src="game.js"></script>
+  <!-- <script src="wallet.js"></script> -->
+  <!-- <script src="statistics.js"></script> -->
+  <!-- <script src="game.js"></script> -->
+
+</body>
+
+</html>

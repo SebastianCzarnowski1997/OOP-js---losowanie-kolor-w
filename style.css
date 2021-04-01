@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 140vh;
+    position: relative;
+}
+
+.wrap {
+    width: 80%;
+    margin: 5vh auto 0;
+    font-family: 'open sans', roboto, sans-serif;
+}
+
+
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.game {
+    display: flex;
+    margin-bottom: 3vh;
+
+}
+
+.game div {
+    height: 30vh;
+    flex-grow: 1;
+    margin: 10px;
+    border: 3px solid gray;
+}
+
+.play {
+    text-align: center;
+}
+
+.play input {
+    height: 90px;
+    font-size: 40px;
+    padding: 20px;
+    width: 400px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+.play button {
+    width: 40%;
+    height: 90px;
+    text-align: center;
+    padding: 20px 60px;
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #333;
+    border: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 6px;
+}
+
+.panel {
+    margin: 80px 0 40px;
+    font-size: 26px;
+}
+
+.panel,
+.score {
+    font-size: 26px;
+}
+
+.panel span,
+.score span {
+    font-weight: bold;
+}
+
+.instruction {
+    position: absolute;
+    bottom: 25%;
+    right: 1%;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .wrap {
+        width: 90%;
+    }
+
+    .play input {
+        height: 70px;
+        font-size: 30px;
+        display: block;
+        margin: 20px auto;
+
+    }
+
+    .play button {
+        height: 74px;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .instruction {
+        position: absolute;
+        bottom: 10%;
+        right: 4%; 
+        width: 90%;
+        height: 10%;
+        text-align: center;
+    }
+    .instruction h1 {
+        font-size: 20px;
+    }
+     .instruction p {
+         font-size: 14px;
+     }
+
+
+}
