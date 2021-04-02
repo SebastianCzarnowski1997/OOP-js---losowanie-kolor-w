@@ -129,7 +129,7 @@ h1 {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
 
     body {
         height: 100vh;
@@ -170,11 +170,12 @@ h1 {
 
     .play input {
         height: 40px;
-        font-size: 40px;
+        font-size: 20px;
         padding: 20px;
         width: 200px;
         border: 2px solid black;
         text-align: center;
+        color: black;
     }
 
     .play button {
